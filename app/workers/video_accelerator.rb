@@ -1,0 +1,3 @@
+class VideoAccelerator
+@queue
+end
