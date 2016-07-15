@@ -6,7 +6,7 @@
 </p>
 
 <p>
-    <%= video_tag @post.video.url(:medium), controls: true, type: "video/mp4" %>
+    <%= video_tag @post.video.url(:original), controls: true, type: "video/mp4" %>
 </p>
 
 <%= link_to 'Edit', edit_post_path(@post) %> |
